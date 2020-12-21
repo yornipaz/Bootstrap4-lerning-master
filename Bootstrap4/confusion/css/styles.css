@@ -1,34 +1,44 @@
-.row-header{
+.row-header {
     margin: 0px auto;
     padding: 0px auto;
 }
-.row-content{
+
+.row-content {
     margin: 0px auto;
     padding: 50px 0px 50px 0px;
-    
     min-height: 400px;
-    
 }
+
 .footer {
     background-color: #d1c4e9;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
 }
-.jumbotron{
-   
+
+.jumbotron {
     padding: 0px auto;
     background: #9575cd;
     color: floralwhite;
 }
-.address{
+
+.address {
     margin: 0px;
     color: #0f0f0f;
     font-size: 80%;
 }
-body{
+
+body {
     padding: 50px 0px 0px 0px;
     z-index: 0;
 }
-.navbar-dark{
+
+.navbar-dark {
     background-color: #512da8;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
 }
