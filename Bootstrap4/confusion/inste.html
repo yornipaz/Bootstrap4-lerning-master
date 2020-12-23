@@ -51,3 +51,83 @@
 
 
 </div>
+<script>
+    $(document).ready(function() {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+
+
+<div class="modal-dialog modal-lg" role="content">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title">Reserve Table </h4>
+            <button type="button" class="close" data-dismiss="modal">×</button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-row  ">
+                    <div class="form-group">
+
+                        <label for="exampleInputNumberGuests3" class=" col-4 col-form-label align-item-start">Number of Guests</label>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">1</label>
+                        </div>
+                        <div class="form-check align-item-start form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">2</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                            <label class="form-check-label" for="inlineRadio1">3</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                            <label class="form-check-label" for="inlineRadio4">4</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
+                            <label class="form-check-label" for="inlineRadio5">5</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option6">
+                            <label class="form-check-label" for="inlineRadio6">6</label>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="form-row p-2 m-2">
+                    <label for="exampleInputSection3" class=" col col-form-label">Section</label>
+                    <div data-toggle="buttons" class="btn-group col-10 btn-group-toggle">
+                        <label class="btn btn-success active">
+                                  <input type="radio" name="options" id="option1" autocomplete="off" checked=""> Non-Smoking
+                                </label>
+                        <label class="btn btn-danger">
+                                  <input type="radio" name="options" id="option2" autocomplete="off"> Smoking
+                                </label>
+
+                    </div>
+                </div>
+                <div class="form-row m-2 p-2">
+                    <label for="dataTime" class="  col-md-2 col-form-label"> Data and Time</label>
+                    <div class="col-4 col-md-4">
+                        <input type="text" class="form-control" id="date" placeholder="Date" name="date">
+                    </div>
+
+                    <div class="col-4 col-md-4">
+                        <input type="text" class="form-control" id="time" placeholder="Time" name="time">
+
+                    </div>
+                </div>
+                <div class="form-row p-2 m-2 ">
+
+                    <button type="button" class="btn btn-secondary btn-sm " data-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary btn-sm ">Reserve</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+</div>
